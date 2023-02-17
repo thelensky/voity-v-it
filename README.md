@@ -17,7 +17,7 @@
 - Вводное про данные https://betacode.net/11573/- history-of-bits-and-bytes-in-computer-science
 - Типы данных https://betacode.net/11571/data-types-in-java
 - Переменные и константы https://metanit.com/java/tutorial/2.1.php 
-- Подготовительная статья к следующей встречи https://javarush.com/groups/posts/- principy-oop и https://habr.com/ru/post/150041/.
+- Подготовительная статья к следующей встречи https://javarush.com/groups/posts/principy-oop и https://habr.com/ru/post/150041/.
 - Для всех стаей прочитать записать уточняющие вопросы.
 ## 2-е занятие ООП
 - Что такое объект?
