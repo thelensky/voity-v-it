@@ -1,0 +1,135 @@
+{
+  "editor.semanticTokenColorCustomizations": {
+        "[Quiet Light]": {
+            "enabled": true,
+            "rules": {
+                "method.declaration": {
+                    "fontStyle": "none",
+                    "foreground": "#000"
+                },
+                "method.static.declaration": {
+                    "fontStyle": "bold",
+                    "foreground": "#AA3731"
+                },
+                "class.importDeclaration": {
+                    "fontStyle": "none"
+                },
+                "class.constructor": {
+                    "fontStyle": "bold",
+                    "foreground": "#7A3E9D"
+                },
+                "property.readonly": {
+                    "fontStyle": "italic"
+                },
+                "modifier:java": {
+                    "foreground": "#000000",
+                    "fontStyle": "italic"
+                },
+                "method.static:java": {
+                    "fontStyle": "italic bold"
+                },
+                "method.static.declaration:java": {
+                    "fontStyle": "bold"
+                },
+                "keyword": {
+                    "fontStyle": "italic"
+                },
+                "annotation": {
+                    "fontStyle": "italic",
+                    "foreground": "#7A3E9D"
+                },
+                "interface": {
+                    "foreground": "#4B69C6"
+                },
+                "class.abstract": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#4B69C6"
+                },
+                "parameter": {
+                    "foreground": "#AA3731"
+                }
+            }
+        },
+        "rules": {},
+        "enabled": true
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#000000",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "support.type.property-name.json",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.other.enummember",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "storage.type.primitive.java",
+                "settings": {
+                    "foreground": "#4B69C6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#000000",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "entity.name.function.declaration",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            },
+            {
+                "scope": "variable.language.this",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "variable.language",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "comment.block",
+                "settings": {
+                    "foreground": "#448C27"
+                }
+            },
+            {
+                "scope": "punctuation.definition.comment",
+                "settings": {
+                    "foreground": "#448C27"
+                }
+            },
+            {
+                "scope": "comment.line.double-slash",
+                "settings": {
+                    "foreground": "#448C27"
+                }
+            }
+        ]
+    }
+}
