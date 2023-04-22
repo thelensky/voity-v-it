@@ -1,5 +1,49 @@
 {
-  "editor.semanticTokenColorCustomizations": {
+    "cSpell.language": "en,ru,en-US,ru-RU,en-GB",
+    "redhat.telemetry.enabled": true,
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "java.maven.downloadSources": true,
+    "java.maven.updateSnapshots": true,
+    "maven.terminal.useJavaHome": true,
+    "maven.pomfile.autoUpdateEffectivePOM": true,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.limit.value": 8,
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-server-connector",
+            "name": "Red Hat Server Connector",
+            "startOnActivation": true
+        },
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "workbench.startupEditor": "none",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#96f3aaa4"
+    },
+    "editor.semanticTokenColorCustomizations": {
         "[Quiet Light]": {
             "enabled": true,
             "rules": {
@@ -131,5 +175,77 @@
                 }
             }
         ]
-    }
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.autofetch": true,
+    "boot-java.remote-apps": [],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m",
+    "cSpell.enableFiletypes": [
+        "xml"
+    ],
+    "editor.fontSize": 16,
+    "editor.suggestFontSize": 14,
+    "editor.codeLensFontSize": 13,
+    "editor.inlayHints.fontSize": 14,
+    "editor.wordWrap": "on",
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+
+    "java.configuration.maven.userSettings": "",
+    "java.symbols.includeSourceMethodDeclarations": true,
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.maxConcurrentBuilds": 6,
+    "material-icon-theme.folders.theme": "specific",
+    "boot-java.change-detection.on": true,
+    "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+    "java.codeGeneration.useBlocks": true,
+    "java.trace.server": "messages",
+    "maven.pomfile.prefetchEffectivePom": true,
+    "java.completion.guessMethodArguments": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.signatureHelp.description.enabled": true,
+    "java.signatureHelp.enabled": true,
+    "java.saveActions.organizeImports": true,
+    "editor.fontWeight": "normal",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "git.confirmSync": false,
+    "editor.largeFileOptimizations": false,
+    "editor.minimap.enabled": false,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "java.debug.settings.hotCodeReplace": "auto",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.pullBeforeCheckout": true,
+    "terminal.integrated.enableBell": true,
+    "java.sources.organizeImports.starThreshold": 3,
+    "java.sources.organizeImports.staticStarThreshold": 3,
+    "explorer.incrementalNaming": "disabled",
+    "maven.view": "hierarchical",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.scrollback": 10000,
+    "boot-java.support-spring-xml-config.on": true,
+    "editor.foldingImportsByDefault": true,
+    "editor.linkedEditing": true,
+    "spring-boot.ls.java.heap": "1024",
+    "java.completion.favoriteStaticMembers": [
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "[xslt]": {
+        "editor.semanticHighlighting.enabled": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.stickyScroll.enabled": true
 }
